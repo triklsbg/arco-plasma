@@ -74,6 +74,8 @@ xorg-server
 xorg-apps
 xorg-xinit
 xterm
+# trikl
+xorg-xrandr
 
 #video
 #xorg-drivers
@@ -90,8 +92,10 @@ xf86-video-amdgpu
 xf86-video-ati
 #xf86-video-dummy
 xf86-video-fbdev
-xf86-video-intel
-#xf86-video-nouveau
+# trikl xf86-video-intel
+# trikl nouveau + nvidia
+xf86-video-nouveau
+nvidia
 xf86-video-openchrome
 #xf86-video-qxl
 xf86-video-vesa
@@ -217,7 +221,7 @@ poppler-qt5
 ###########################
 
 #applications
-atom
+# trikl atom
 #catfish
 chromium
 #compton
@@ -244,7 +248,7 @@ pragha
 qbittorrent
 scrot
 simplescreenrecorder
-termite
+# trikl termite
 #tint2
 variety
 vlc
@@ -314,7 +318,7 @@ catfish
 dconf-editor
 dialog
 dmidecode
-evince
+# trikl evince
 expac
 file-roller
 #filezilla
@@ -346,7 +350,7 @@ lsb-release
 mlocate
 #nomacs
 p7zip
-plank
+# trikl plank
 #playerctl
 polkit
 #polkit-gnome
@@ -361,7 +365,7 @@ powertop
 reflector
 redshift
 #rofi
-rxvt-unicode
+# trikl rxvt-unicode
 simple-scan
 #shotwell
 speedtest-cli
@@ -394,8 +398,8 @@ zsh-syntax-highlighting
 #############################
 
 #applications
-vivaldi
-vivaldi-codecs-ffmpeg-extra-bin
+# trikl vivaldi
+# trikl vivaldi-codecs-ffmpeg-extra-bin
 
 #cursors
 #breeze-cursors-lh
@@ -447,7 +451,7 @@ grub-customizer
 hardcode-fixer-git
 inxi
 #menulibre
-mintstick-git
+# trikl mintstick-git
 #mugshot
 neofetch
 oh-my-zsh-git
@@ -533,13 +537,13 @@ arcolinux-qt5-plasma-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
 arcolinux-system-config-git
-arcolinux-termite-themes-git
+# trikl arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 arcolinux-variety-git
 arcolinux-wallpapers-git
 #arcolinux-xfce4-panel-profiles-git
-arcolinux-xfce-thunar-git
+# trikl arcolinux-xfce-thunar-git
 #arcolinux-xmonad-polybar-git
 #arcolinux-xmonad-git
 
@@ -548,18 +552,18 @@ arcolinux-xfce-thunar-git
 exo
 #garcon
 #gtk-xfce-engine
-thunar
+# trikl thunar
 #thunar-volman
 #tumbler
 #xfce4-appfinder
-xfce4-panel
+# triklxfce4-panel
 #xfce4-power-manager
-xfce4-session
-xfce4-settings
+# trikl xfce4-session
+# trikl xfce4-settings
 #xfce4-terminal
 #xfconf
-xfdesktop
-xfwm4
+# trikl xfdesktop
+# trikl xfwm4
 #xfwm4-themes
 
 
@@ -568,7 +572,7 @@ xfwm4
 #orage
 #parole
 #ristretto
-thunar-archive-plugin
+# trikl thunar-archive-plugin
 #thunar-media-tags-plugin
 #xfburn
 #xfce4-artwork
@@ -626,8 +630,9 @@ qt5-xmlpatterns
 
 
 #Desktop specific
-plasma
-kde-applications-meta
+# trikl plasma
+plasma-desktop
+# trikl kde-applications-meta
 adapta-kde
 arc-kde
 materia-kde
@@ -635,3 +640,9 @@ partitionmanager
 ktorrent
 kdeconnect
 numix-kde-theme-git
+
+# trikl additions
+konsole
+dolphin
+kate
+emacs
